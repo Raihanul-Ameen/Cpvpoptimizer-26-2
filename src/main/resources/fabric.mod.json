@@ -1,31 +1,21 @@
 {
-	"schemaVersion": 1,
-	"id": "modid",
-	"version": "${version}",
-	"name": "Crystal Optimizer",
-	"description": "Zero delay client-side crystal optimizer.",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
-	"environment": "client",
-	"entrypoints": {
-		"client": [
-			"com.example.ExampleMod"
-		]
-	},
-	"mixins": [
-		"modid.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.19.3",
-		"minecraft": "~26.2",
-		"java": ">=25",
-		"fabric-api": "*"
-	}
+  "schemaVersion": 1,
+  "id": "crystal_optimizer",
+  "version": "${version}",
+  "name": "Crystal Optimizer",
+  "description": "Removes ping delays and render drops during End Crystal PvP.",
+  "authors": [ "YourName" ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/crystal_optimizer/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "crystal_optimizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "fabric-api": "*"
+  }
 }
